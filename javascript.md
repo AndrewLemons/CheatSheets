@@ -4,6 +4,7 @@
 | Section |
 |---|
 | [Types](#types) |
+| [Conditionals](#conditionals) |
 |[Loops](#loops)|
 
 ## Types
@@ -29,17 +30,64 @@ typeof {"test": true} //object
 #### String()  
 Convert to a string.
 ```javascript
-String(100) // "100"
-String(true) // "true"
+String(100); // "100"
+String(true); // "true"
 ```
 ---
 #### Number()  
 Convert to a number.
 ```javascript
-Number("100") // 100
-Number(true) // NaN
-Number("") // 0
-Number(true) // 1
+Number("100"); // 100
+Number(true); // NaN
+Number(""); // 0
+Number(true); // 1
+```
+## Conditionals
+[Top](#contents)
+
+#### If  
+Run code if a condition returns true.
+```javascript
+if (x > y) {
+  x -= y;
+}
+````
+---
+#### Else  
+Code to run if a condition is false.
+```javascript
+if (x > y) {
+  x -= y;
+} else {
+  y -= x;
+}
+````
+---
+#### Else if  
+Code to run if a condition is false and anouther condition is true.
+```javascript
+if (x > y) {
+  x -= y;
+} else if (y == x) {
+  x, y = 0;
+} else {
+  y -= x;
+}
+```
+---
+#### Switch  
+Select code to run based on a value.
+```javascript
+switch(x) {
+  case 1:
+    console.log(x == 1);
+    break;
+  case 2:
+    console.log(x == 2);
+    break;
+  default:
+    console.log(x);
+}
 ```
 
 ## Loops

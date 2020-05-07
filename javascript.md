@@ -2,7 +2,42 @@
 
 | Table of Contents |
 |---|
+| [Types](#types) |
 |[Loops](#loops)|
+
+## Types
+#### Types  
+- string
+- number
+- boolean
+- object
+- function
+- array
+- date
+---
+#### Typeof  
+Get the type of a value.
+```javascript
+typeof 100 //number
+typeof true //boolean
+typeof {"test": true} //object
+```
+---
+#### String()  
+Convert to a string.
+```javascript
+String(100) // "100"
+String(true) // "true"
+```
+---
+#### Number()  
+Convert to a number.
+```javascript
+Number("100") // 100
+Number(true) // NaN
+Number("") // 0
+Number(true) // 1
+```
 
 ## Loops
 #### For  

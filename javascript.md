@@ -1,6 +1,8 @@
 # JavaScript Cheat Sheet
 
 ## Contents
+| Section |
+|---|
 | [Types](#types) |
 |[Loops](#loops)|
 

@@ -1,11 +1,12 @@
 # JavaScript Cheat Sheet
 
-| Table of Contents |
-|---|
+## Contents
 | [Types](#types) |
 |[Loops](#loops)|
 
 ## Types
+[Top](#contents)
+
 #### Types  
 - string
 - number
@@ -40,6 +41,8 @@ Number(true) // 1
 ```
 
 ## Loops
+[Top](#contents)
+
 #### For  
 Loop through a block of code x times.
 ```javascript

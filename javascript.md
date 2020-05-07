@@ -4,6 +4,7 @@
 | Section |
 |---|
 | [Types](#types) |
+| [Math](#math) |
 | [Conditionals](#conditionals) |
 |[Loops](#loops)|
 
@@ -42,6 +43,64 @@ Number(true); // NaN
 Number(""); // 0
 Number(true); // 1
 ```
+## Math
+[Top](#contents)
+
+#### Addition  
+Add one value to anouther.
+```javascript
+c = 1 + 2; // 3
+a += 2; // a + 2
+b++; // b + 1
+```
+---
+#### Subtraction  
+Subtract one value from anouther.
+```javascript
+c = 2 - 1; // 1
+a -= 2; // a - 2
+b--; // b - 1
+```
+---
+#### Multiplication  
+Multiply two values.
+```javascript
+c = 2 * 6; // 12
+a *= 2; // a * 2
+```
+---
+#### Division  
+Divide one value from anouther.
+```javascript
+c = 1 / 2; // 0.5
+a /= 2; // a / 2
+```
+---
+#### Exponentiation
+Get one value to the power of anouther.
+```javascript
+c = 3 ** 2; // 9
+a **= 2; // a<sup>2</sup>
+```
+---
+#### Modulus
+Get the remainder of a division oporation.
+```javascript
+a = 5 % 2; // 1
+b = 10 % 5; // 0
+```
+---
+#### Math object methods  
+| Method | Description |
+|-|-|
+|abs(x)|Returns the absolute value of x.|
+|ceil(x)|Returns x rounded up to the nearest int.|
+|floor(x)|Returns x rounded down to the nearest int.|
+|max(x, y, z, ..., n)|Returns the largest value.|
+|min(x, y, z, ..., n)|Returns the smallest value.|
+|pow(x, y)|Returns x raised to the y power.|
+|random()|Returns a random number from 0 <= x > 1.|
+
 ## Conditionals
 [Top](#contents)
 

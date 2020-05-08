@@ -1,8 +1,8 @@
 # Text Cheat Sheet
 | Contents |
 |-|
-|[Box Drawing](#box)|
-## Box
+|[Boxes](#box)|
+## Boxes
 |┌|─|┐|│|┘|└|
 |-|-|-|-|-|-|
 ```

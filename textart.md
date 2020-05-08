@@ -1,7 +1,7 @@
 # Text Cheat Sheet
 | Contents |
 |-|
-|[Boxes](#box)|
+|[Boxes](#boxes)|
 ## Boxes
 |┌|─|┐|│|┘|└|
 |-|-|-|-|-|-|
